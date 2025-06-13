@@ -95,7 +95,7 @@ class OperatorChecker(QThread):
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("📶 Ding Operator Checker")
+        self.setWindowTitle("📶 MNP Finder Ram Singh")
         self.resize(1000, 750)
         palette = self.palette()
         palette.setColor(QPalette.ColorRole.Window, QColor("#121212"))
